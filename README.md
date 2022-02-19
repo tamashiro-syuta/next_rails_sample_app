@@ -14,7 +14,7 @@
 git clone https://github.com/tamashiro-syuta/next_rails_sample_app.git
 ```
 
-docker-composeを起動
+docker-composeを起動(※front側の起動で時間がかかる)
 ```
 docker-compose up --build
 ```
