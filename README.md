@@ -18,7 +18,6 @@ docker-composeを起動
 ```
 docker-compose up --build
 ```
-
 Rails(API)側でDB構築
 ```
 docker-compose run --rm api bundle exec rails db:create
