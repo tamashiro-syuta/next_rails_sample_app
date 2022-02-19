@@ -28,7 +28,7 @@ services:
     build: 
       context: ./front
       dockerfile: Dockerfile
-    command: sh -c "cd front-next && npm run dev"
+    command: sh -c "cd front-next && yarn && npm run dev"
     ports:
       - '8000:3000'
     volumes:
