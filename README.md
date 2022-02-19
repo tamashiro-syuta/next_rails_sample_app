@@ -24,3 +24,7 @@ docker-compose run --rm api bundle exec rails db:create
 ```
 
 これで``` localhost:8000/ ```にnext、``` localhost:3000/ ```にはRailsのハローページが、それぞれ表示
+
+
+# 参考にした記事
+[DockerでRails(API)＋Next.js環境構築方法](https://zenn.dev/tasuya/articles/5b3d584b1b0e20)
